@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule youtube/(.*)$ youtube.php?signature=$1 [B]
+RewriteRule dailymotion/(.*)$ dailymotion.php?signature=$1 [B]
